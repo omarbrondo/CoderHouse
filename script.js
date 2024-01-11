@@ -4,7 +4,7 @@ let sumaComida = 0;
 let sumaBebida = 0;
 let subtotalComida = 0;
 let subtotalBebida = 0;
-
+alert("⚠️INSTRUCCIONES⚠️\n ANTES DE HACER CLIC EN EL BOTON NARANJA, ABRIR LA CONSOLA");
 botonPedido.addEventListener("click", function () {
   let personas = prompt("¿Cuantas personas son? 👨‍👩‍👦‍👦 ");
 
