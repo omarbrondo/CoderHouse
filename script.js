@@ -6,9 +6,11 @@ let subtotalComida = 0;
 let subtotalBebida = 0;
 alert("⚠️INSTRUCCIONES⚠️\n ANTES DE HACER CLIC EN EL BOTON NARANJA, ABRIR LA CONSOLA");
 botonPedido.addEventListener("click", function () {
+  console.log("⚠️ATENCIÓN COCINEROS! HAY UN NUEVO CLIENTE!⚠️")
   let personas = prompt("¿Cuantas personas son? 👨‍👩‍👦‍👦 ");
 
   for (let i = 0; i < personas; i++) {
+    
     let nombre = prompt("Nombre de la persona " + (parseInt(i) + 1));
     console.log("Menu para " + nombre);
     let edad = prompt("¿Edad de " + nombre + "?");
