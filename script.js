@@ -58,7 +58,7 @@ botonPedido.addEventListener("click", function () {
       if (parseInt(bebida) !== 5) {
         console.log(nombre + " pidió para tomar la opción " + bebida);
       }
-      if(edad<18){
+      if(edad<18 && parseInt(bebida) == 3){
         console.log("Es menor de edad, no puede tomar cerveza");
       }
 
